@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroGarden - Smart Plants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <svg class="logo-svg" viewBox="0 0 60 60">
+                <path d="M20,25 Q30,15 40,25 Q50,35 40,45 Q30,55 20,45 Q10,35 20,25 Z" fill="#667eea" opacity="0.7"/>
+                <path d="M35,20 Q45,15 50,25 Q45,35 35,30 Q25,25 30,15 Q32,12 35,20 Z" fill="#2dd4bf" opacity="0.8"/>
+            </svg>
+            <h1 class="logo">NeuroGarden</h1>
+            <p class="tagline">Plants that think and compute</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to the Future of Gardening</h2>
+            <p>Discover plants that can process data while bringing nature to your home</p>
+            <div class="feature-tags">
+                <span>Smart Technology</span>
+                <span>Eco-Friendly</span>
+                <span>Easy to Use</span>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Our Smart Plants</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="card-header">
+                        <h3>Orchid CPU</h3>
+                        <div class="price">$49</div>
+                    </div>
+                    <p>Perfect for home offices and students</p>
+                    <ul class="features-list">
+                        <li>Basic computing tasks</li>
+                        <li>Low maintenance</li>
+                        <li>WiFi connected</li>
+                    </ul>
+                    <button class="select-btn">Select</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="card-header">
+                        <h3>Fern Firewall</h3>
+                        <div class="price">$79</div>
+                    </div>
+                    <p>Keep your home network secure</p>
+                    <ul class="features-list">
+                        <li>Internet security</li>
+                        <li>Parental controls</li>
+                        <li>24/7 protection</li>
+                    </ul>
+                    <button class="select-btn">Select</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="card-header">
+                        <h3>Moss Memory</h3>
+                        <div class="price">$65</div>
+                    </div>
+                    <p>Store your memories safely</p>
+                    <ul class="features-list">
+                        <li>Photo storage</li>
+                        <li>Document backup</li>
+                        <li>Automatic sync</li>
+                    </ul>
+                    <button class="select-btn">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-form">
+            <h2>Order Your Smart Plant</h2>
+            <form class="order-form-inner">
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                </div>
+
+                <fieldset class="form-section">
+                    <legend>Choose Your Plant</legend>
+                    <div class="radio-options">
+                        <label class="option">
+                            <input type="radio" name="plant" value="orchid" required>
+                            <span class="radio-custom"></span>
+                            Orchid CPU - $49
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="plant" value="fern">
+                            <span class="radio-custom"></span>
+                            Fern Firewall - $79
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="plant" value="moss">
+                            <span class="radio-custom"></span>
+                            Moss Memory - $65
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-section">
+                    <legend>Additional Features</legend>
+                    <div class="checkbox-options">
+                        <label class="option">
+                            <input type="checkbox" name="features" value="monitor">
+                            <span class="checkbox-custom"></span>
+                            Growth Monitoring (+$10)
+                        </label>
+                        <label class="option">
+                            <input type="checkbox" name="features" value="protection">
+                            <span class="checkbox-custom"></span>
+                            Data Protection (+$15)
+                        </label>
+                        <label class="option">
+                            <input type="checkbox" name="features" value="network">
+                            <span class="checkbox-custom"></span>
+                            Network Features (+$20)
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="care">Care Level</label>
+                        <select id="care" required>
+                            <option value="">Select care level</option>
+                            <option value="easy">Easy - Water weekly</option>
+                            <option value="medium">Medium - Water twice weekly</option>
+                            <option value="high">High - Daily attention</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="color">Pot Color</label>
+                        <select id="color">
+                            <option>White</option>
+                            <option>Black</option>
+                            <option>Green</option>
+                            <option>Blue</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="notes">Special Instructions</label>
+                    <textarea id="notes" rows="4" placeholder="Any special requests..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Place Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 NeuroGarden. Made with ❤️ for better living.</p>
+        </div>
+    </footer>
+</body>
+</html>
