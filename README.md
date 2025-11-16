@@ -20,6 +20,7 @@ I validated my HTML code using the W3C Markup Validation Service and received no
 CSS Validation  
 I validated my CSS code using the W3C CSS Validation Service. The CSS code follows modern standards and works across all major browsers.
 
+
 Browser Testing
 The website has been tested and works correctly in:
 - Google Chrome
@@ -53,4 +54,5 @@ Files Included
 
 How to View
 Open `index.html` in any modern web browser. No special setup or server required.
+
 
